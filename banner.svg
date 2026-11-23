@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Riot Vanguard detection vector breakdown</title>
+  <desc id="desc">Independent VGK and VGC reverse engineering by hexreys.</desc>
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#FFFFFF" stop-opacity="0"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".8"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1200" height="420" rx="14" fill="#030303"/>
+  <rect width="1200" height="420" rx="14" fill="url(#grid)"/>
+  <path d="M0 86H1200" stroke="url(#fade)" stroke-width="2"><animateTransform attributeName="transform" type="translate" values="-1200 0;1200 0" dur="5s" repeatCount="indefinite"/></path>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" fill="#FFFFFF">
+    <text x="60" y="58" font-size="15" letter-spacing="5" opacity=".58">INDEPENDENT KERNEL RESEARCH / BUILD 1.19.1-18</text>
+    <text x="60" y="148" font-size="58" font-weight="800" letter-spacing="2">VANGUARD</text>
+    <text x="60" y="194" font-size="24" letter-spacing="8" opacity=".78">DETECTION VECTOR BREAKDOWN</text>
+    <text x="60" y="238" font-size="16" opacity=".52">VGK.SYS  /  VGC.EXE  /  WINDOWS X64  /  HEXREYS</text>
+    <g transform="translate(60 286)">
+      <g><rect width="238" height="78" rx="8" fill="#131313" stroke="#FFFFFF" stroke-opacity=".22"/><text x="18" y="31" font-size="12" letter-spacing="3" opacity=".5">STAGE-5 SITES</text><text x="18" y="60" font-size="25" font-weight="700">8,868 / 8,868</text></g>
+      <g transform="translate(254)"><rect width="190" height="78" rx="8" fill="#131313" stroke="#FFFFFF" stroke-opacity=".22"/><text x="18" y="31" font-size="12" letter-spacing="3" opacity=".5">ETW SLOTS</text><text x="18" y="60" font-size="25" font-weight="700">24</text></g>
+      <g transform="translate(460)"><rect width="190" height="78" rx="8" fill="#131313" stroke="#FFFFFF" stroke-opacity=".22"/><text x="18" y="31" font-size="12" letter-spacing="3" opacity=".5">EVENT CODES</text><text x="18" y="60" font-size="25" font-weight="700">68</text></g>
+      <g transform="translate(666)"><rect width="190" height="78" rx="8" fill="#131313" stroke="#FFFFFF" stroke-opacity=".22"/><text x="18" y="31" font-size="12" letter-spacing="3" opacity=".5">IOCTL CMDS</text><text x="18" y="60" font-size="25" font-weight="700">65</text></g>
+    </g>
+    <g transform="translate(1035 142)" fill="none" stroke="#FFFFFF" opacity=".55">
+      <circle r="76" stroke-width="2" stroke-dasharray="4 10"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/></circle>
+      <circle r="52" stroke-opacity=".38"/><path d="M-38 0H38M0-38V38" stroke-opacity=".32"/><rect x="-18" y="-18" width="36" height="36" rx="4" fill="#131313"/>
+      <circle r="6" fill="#FFFFFF"><animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+</svg>
+

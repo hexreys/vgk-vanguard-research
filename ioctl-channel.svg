@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">RC4 IOCTL channel and command dispatch</title><desc id="desc">The VGK device channel frames 64 commands with an RDTSC nonce and RC4 before a 65-command switch.</desc>
+  <rect width="1200" height="360" rx="12" fill="#030303"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" fill="#FFFFFF">
+    <text x="48" y="48" font-size="16" letter-spacing="4" opacity=".58">DEVICE CHANNEL / \??\VGK / 0X22C000..0X22C1BC</text>
+    <g transform="translate(48 92)">
+      <g fill="#131313" stroke="#FFFFFF" stroke-opacity=".24"><rect width="236" height="126" rx="10"/><rect x="274" width="236" height="126" rx="10"/><rect x="548" width="236" height="126" rx="10"/><rect x="822" width="282" height="126" rx="10"/></g>
+      <g font-size="14"><text x="20" y="38" opacity=".5">SYSTEMBUFFER</text><text x="20" y="72" font-size="21" font-weight="700">NONCE[0..7]</text><text x="20" y="99" opacity=".65">RDTSC · 8 BYTES</text><text x="294" y="38" opacity=".5">STREAM CIPHER</text><text x="294" y="72" font-size="21" font-weight="700">RC4 IN PLACE</text><text x="294" y="99" opacity=".65">258-BYTE STATE</text><text x="568" y="38" opacity=".5">DISPATCH</text><text x="568" y="72" font-size="21" font-weight="700">65 COMMANDS</text><text x="568" y="99" opacity=".65">30 + 35 GROUP</text><text x="842" y="38" opacity=".5">SUBSYSTEMS</text><text x="842" y="72" font-size="18" font-weight="700">POLICY · TELEMETRY</text><text x="842" y="99" opacity=".65">PROCESS · GPU · INPUT</text></g>
+      <path d="M236 63h38m-10-8 10 8-10 8M510 63h38m-10-8 10 8-10 8M784 63h38m-10-8 10 8-10 8" fill="none" stroke="#FFFFFF" opacity=".55"/>
+      <path d="M0 169H1104" stroke="#FFFFFF" stroke-dasharray="8 9" opacity=".45"><animate attributeName="stroke-dashoffset" from="0" to="34" dur="1.7s" repeatCount="indefinite"/></path>
+      <text y="202" font-size="13" opacity=".5">EXCEPTION: 0X22C178 · LENGTH-CHECKED 8-BYTE STUB · NO SESSION KEY</text>
+    </g>
+  </g>
+</svg>
+

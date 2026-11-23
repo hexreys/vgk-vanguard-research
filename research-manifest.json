@@ -1,0 +1,30 @@
+{
+  "project": "Riot Vanguard Detection Vector Breakdown",
+  "researcher": "hexreys",
+  "build": "vanguard/1.19.1-18+20261001.143443",
+  "targets": ["vgk.sys", "vgc.exe"],
+  "architecture": "Windows x64",
+  "measurements": {
+    "stage5_solved_sites": 8868,
+    "stage5_unresolved_sites": 0,
+    "vgk_stage5_sites": 1935,
+    "vgc_stage5_sites": 6933,
+    "vgk_stage5_instructions": 812521,
+    "vgc_stage5_instructions": 692922,
+    "etw_hook_slots": 24,
+    "hypervisor_timing_probes": 14,
+    "telemetry_codes": 68,
+    "ioctl_switch_commands": 65,
+    "lazy_resolvers": 313,
+    "unique_kernel_apis": 246,
+    "resolver_slot_addresses": 1235
+  },
+  "evidence_classes": [
+    "code-grounded",
+    "machine-level sweep",
+    "dynamic probe",
+    "linear-disassembly candidate",
+    "documented limitation"
+  ]
+}
+

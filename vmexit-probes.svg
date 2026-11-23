@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Fourteen Vanguard hypervisor and timing probes</title><desc id="desc">MSR, wait, timing, IRET, syscall, interrupt shadow, multicore, address-space, KVM, descriptor, port and SMSW probes.</desc>
+  <rect width="1200" height="440" rx="12" fill="#030303"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" fill="#FFFFFF">
+    <text x="48" y="48" font-size="16" letter-spacing="4" opacity=".58">HYPERVISOR SURFACE / 14 RECOVERED PROBES</text>
+    <g transform="translate(48 82)" font-size="14">
+      <g fill="#131313" stroke="#FFFFFF" stroke-opacity=".2">
+        <rect width="252" height="64" rx="8"/><rect x="268" width="252" height="64" rx="8"/><rect x="536" width="252" height="64" rx="8"/><rect x="804" width="300" height="64" rx="8"/>
+        <rect y="78" width="252" height="64" rx="8"/><rect x="268" y="78" width="252" height="64" rx="8"/><rect x="536" y="78" width="252" height="64" rx="8"/><rect x="804" y="78" width="300" height="64" rx="8"/>
+        <rect y="156" width="252" height="64" rx="8"/><rect x="268" y="156" width="252" height="64" rx="8"/><rect x="536" y="156" width="252" height="64" rx="8"/><rect x="804" y="156" width="300" height="64" rx="8"/>
+        <rect y="234" width="520" height="64" rx="8"/><rect x="536" y="234" width="568" height="64" rx="8"/>
+      </g>
+      <g opacity=".82">
+        <text x="18" y="39">01  IA32_LSTAR</text><text x="286" y="39">02  IA32_DEBUGCTL</text><text x="554" y="39">03  MONITOR / MWAIT</text><text x="822" y="39">04  UMONITOR / UMWAIT</text>
+        <text x="18" y="117">05  CPUID / RDTSC</text><text x="286" y="117">06  IRETQ / CLFLUSH</text><text x="554" y="117">07  RING-0 SYSCALL</text><text x="822" y="117">08  MOV SS SHADOW</text>
+        <text x="18" y="195">09  ALL-CORE IPI</text><text x="286" y="195">10  SHADOW PML4</text><text x="554" y="195">11  KVM MSR</text><text x="822" y="195">12  SIDT / IDTR</text>
+        <text x="18" y="273">13  RAW PORT I/O</text><text x="554" y="273">14  SMSW / CR0 TIMING</text>
+      </g>
+      <path d="M0 328H1104" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="10 10" opacity=".46"><animate attributeName="stroke-dashoffset" from="0" to="40" dur="2s" repeatCount="indefinite"/></path>
+      <text y="350" font-size="12" letter-spacing="3" opacity=".45">CODE-GROUNDED SIGNALS · EACH WITH DOCUMENTED SCOPE AND EVASION LIMITS</text>
+    </g>
+  </g>
+</svg>
+

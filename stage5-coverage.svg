@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Stage-1 and Stage-5 recovery coverage</title><desc id="desc">Entry-stub reachability and complete machine-level Stage-5 sweep.</desc>
+  <rect width="1200" height="360" rx="12" fill="#030303"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" fill="#FFFFFF">
+    <text x="48" y="48" font-size="16" letter-spacing="4" opacity=".58">DISPATCHER RECOVERY / COVERAGE IS NOT EXECUTION</text>
+    <g transform="translate(48 84)">
+      <text y="24" font-size="14" opacity=".62">STAGE-1 ENTRY STUBS</text><text x="1035" y="24" font-size="14" text-anchor="end">VGK 99.1%</text>
+      <rect y="42" width="1035" height="26" rx="6" fill="#131313" stroke="#FFFFFF" stroke-opacity=".18"/><rect y="42" width="1026" height="26" rx="6" fill="#FFFFFF" opacity=".8"><animate attributeName="width" from="0" to="1026" dur="1.4s" fill="freeze"/></rect>
+      <text y="104" font-size="14" opacity=".62">STAGE-1 ENTRY STUBS</text><text x="1035" y="104" font-size="14" text-anchor="end">VGC 95.9%</text>
+      <rect y="122" width="1035" height="26" rx="6" fill="#131313" stroke="#FFFFFF" stroke-opacity=".18"/><rect y="122" width="992" height="26" rx="6" fill="#FFFFFF" opacity=".68"><animate attributeName="width" from="0" to="992" dur="1.6s" fill="freeze"/></rect>
+      <text y="184" font-size="14" opacity=".62">STAGE-5 SOLVED SITES</text><text x="1035" y="184" font-size="14" text-anchor="end">8,868 / 8,868 · 0 UNRESOLVED</text>
+      <rect y="202" width="1035" height="34" rx="6" fill="#131313" stroke="#FFFFFF" stroke-opacity=".18"/><rect y="202" width="1035" height="34" rx="6" fill="#FFFFFF" opacity=".9"><animate attributeName="width" from="0" to="1035" dur="1.9s" fill="freeze"/></rect>
+      <text x="14" y="225" font-size="13" fill="#030303">VGK 1,935 · VGC 6,933 · 1,505,443 INSTRUCTIONS</text>
+    </g>
+  </g>
+</svg>
+
